@@ -1,11 +1,9 @@
 "use client";
-
 import { Card, CardBody, Button } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import {
   FileText,
   ExternalLink,
-  Award,
   Mouse,
   ChevronRight,
   ChevronLeft,
