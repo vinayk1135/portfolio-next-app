@@ -21,7 +21,7 @@ const LinkedInBadge: React.FC = () => {
     >
       <a
         className="badge-base__link LI-simple-link "
-        href="https://www.linkedin.com/in/nandhi-kanti-vinay?trk=profile-badge"
+        href="https://www.linkedin.com/in/nkvinay?trk=profile-badge"
         title="Nandhikanti Vinay Kumar"
       ></a>
     </div>

@@ -109,7 +109,7 @@ export function Contact() {
                     href="tel:+16282763863"
                     className="text-foreground hover:text-primary transition-colors"
                   >
-                    +1 (628)-276-3863
+                    +1 (669)-228-5863
                   </a>
                 </div>
               </CardBody>

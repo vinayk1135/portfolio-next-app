@@ -33,6 +33,7 @@ export function NavBar() {
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
+    { name: "Certifications", href: "#certifications" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -131,7 +132,7 @@ export function NavBar() {
                 radius="full"
                 className="font-medium text-sm text-primary"
               >
-                Contact Me
+                Email
               </Button>
             </motion.div>
           </div>
@@ -168,13 +169,13 @@ export function NavBar() {
           >
             <Button
               as={Link}
-              href="mailto:nandhikantivinayk@gmail.com"
+              href="mailto:nandhikvinay@gmail.com"
               variant="flat"
               color="primary"
               radius="full"
               className="font-medium text-sm text-primary w-full"
             >
-              Contact Me
+              Email
             </Button>
           </motion.div>
         </NavbarMenu>

@@ -10,6 +10,7 @@ import {
   ChevronRight,
   ChevronLeft,
 } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 interface Certification {
@@ -18,6 +19,7 @@ interface Certification {
   date: string;
   pdfUrl?: string;
   credentialUrl: string;
+  imageUrl: string;
 }
 
 const certifications: Certification[] = [
@@ -26,7 +28,9 @@ const certifications: Certification[] = [
     issuer: "Amazon Web Services",
     date: "2024",
     pdfUrl: "/certificates/aws-cloud-certification.pdf",
-    credentialUrl: "https://www.credly.com/earner/earned/badge/d85fb476-f8a6-49c9-900e-9f48a5d6d43e",
+    credentialUrl:
+      "https://www.credly.com/earner/earned/badge/d85fb476-f8a6-49c9-900e-9f48a5d6d43e",
+    imageUrl: "/aws-badge.png",
   },
   {
     title: "Google Cloud Certification",
@@ -34,7 +38,8 @@ const certifications: Certification[] = [
     date: "2024",
     pdfUrl: "/certificates/google-cloud.pdf",
     credentialUrl:
-      "https://www.coursera.org/account/accomplishments/verify/ITJGKYLNZQQI",
+      "https://www.coursera.org/account/accomplishments/certificate/ITJGKYLNZQQI",
+    imageUrl: "/google-cloud.png",
   },
   {
     title: "Meta React and React Native",
@@ -43,6 +48,7 @@ const certifications: Certification[] = [
     pdfUrl: "/certificates/meta-react.pdf",
     credentialUrl:
       "https://www.coursera.org/account/accomplishments/certificate/S2EDWFSE77JW",
+    imageUrl: "/meta.png",
   },
   {
     title: "Java Programming",
@@ -51,6 +57,7 @@ const certifications: Certification[] = [
     pdfUrl: "/certificates/java-codingninjas.pdf",
     credentialUrl:
       "https://ninjasfiles.s3.amazonaws.com/certificate1629007cd476f5a1ba9c12db0c0161b464dfc29.pdf",
+    imageUrl: "/coding-ninjas.jpg",
   },
 ];
 
@@ -157,18 +164,14 @@ export function Certifications() {
                   >
                     <Card className="bg-background/40 backdrop-blur-md border border-white/10 hover:scale-[1.02] transition-transform cursor-pointer h-full">
                       <CardBody className="p-0">
-                        <div
-                          className="relative w-full h-48 bg-primary/5 flex items-center justify-center"
-                          onClick={() =>
-                            window.open(cert.credentialUrl, "_blank")
-                          }
-                        >
-                          <div className="flex flex-col items-center gap-4">
-                            <Award size={48} className="text-primary/50" />
-                            <div className="text-primary/50 font-medium text-sm">
-                              {cert.issuer}
-                            </div>
-                          </div>
+                        <div className="w-full flex relative h-52 items-center justify-center">
+                          <Image
+                            src={cert.imageUrl}
+                            alt="cert-images"
+                            height={200}
+                            width={200}
+                            className="relative object-cover"
+                          />
                         </div>
                         <div className="p-4 space-y-4">
                           <div

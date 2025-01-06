@@ -6,6 +6,7 @@ import { About } from "./components/about";
 import { Achievements } from "./components/achievements";
 import { Certifications } from "./components/certifications";
 import { SectionDivider } from "./components/section-divider";
+import { Education } from "./components/education";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <Hero />
       <SectionDivider />
       <About />
+      <SectionDivider />
+      <Education />
       <SectionDivider />
       <Experience />
       <SectionDivider />

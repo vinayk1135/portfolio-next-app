@@ -39,7 +39,7 @@ export function Hero() {
           <div className="flex gap-4">
             <Button
               as={Link}
-              href="https://github.com/hackerdud3"
+              href="https://github.com/vinayk1135"
               isExternal
               variant="bordered"
               size="lg"
@@ -50,7 +50,7 @@ export function Hero() {
             </Button>
             <Button
               as={Link}
-              href="https://www.linkedin.com/in/nandhi-kanti-vinay/"
+              href="https://www.linkedin.com/in/nkvinay/"
               isExternal
               variant="bordered"
               size="lg"

@@ -5,29 +5,39 @@ import { motion } from "framer-motion";
 import LinkedInBadge from "./linkedin-badge";
 
 const skills = {
-  Frontend: [
+  Languages: ["Java", "Python", "JavaScript", "TypeScript", "C/C++"],
+  "Web Technologies": [
     "React.js",
-    "Next.js",
-    "TypeScript",
-    "JavaScript (ES6+)",
-    "HTML5",
-    "CSS3",
     "Redux",
+    "HTML",
+    "CSS",
+    "RESTful API",
+    "jQuery",
+    "Ajax",
+    "JSON",
+    "Webpack",
   ],
-  "Backend & Databases": [
-    "Java",
-    "Python",
+  Frameworks: [
     "Spring Boot",
+    "Hibernate",
+    "Node.js",
+    "Express",
     "Django",
     "Flask",
-    "Node.js",
-    "MongoDB",
-    "PostgreSQL",
-    "MySQL",
-    "Redis",
   ],
+  Databases: ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
   "Cloud & DevOps": ["AWS", "Google Cloud Platform", "Docker", "Kubernetes"],
-  "AI/ML": ["LangChain", "Hugging Face", "OpenCV", "NLP"],
+  "AI/ML": [
+    "Langchain",
+    "RAG",
+    "NumPy",
+    "Pandas",
+    "Scikit-learn",
+    "LangChain",
+    "OpenCV",
+    "Natural Language Processing (NLP)",
+    "Pinecone",
+  ],
   "Testing & Tools": [
     "Jest",
     "Git",
@@ -55,10 +65,10 @@ export function About() {
                 <p className="text-lg text-default-500">
                   Full Stack Developer/Software Engineer with strong experience
                   in React, TypeScript, Python, and Java Spring ecosystem.
-                  Specialized in building accessible web applications and
-                  integrating AI/ML solutions. Proven track record of optimizing
-                  application performance and implementing cloud-native
-                  solutions on AWS and GCP.
+                  Specialized in building scalable application and integrating
+                  AI/ML solutions. AWS certified and proven track record of
+                  optimizing application performance and implementing
+                  cloud-native solutions on AWS and GCP.
                 </p>
                 <div className="flex flex-col lg:flex-row gap-8">
                   <div className="space-y-6 flex-grow">

@@ -6,6 +6,21 @@ import { useRef } from "react";
 
 const projects = [
   {
+    title: "San Francisco Neighborhoods Crime Analysis",
+    description:
+      "Developed an interactive dashboard analyzing 850,000+ crime incidents (2018–2024), featuring geospatial maps of 10 police districts and revealing 60% of crimes in 3 key areas. Built a robust ETL pipeline with NumPy and Pandas, processing 1M+ data points and reducing 30+ dimensions for optimized resource allocation.",
+    technologies: [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "Matplotlib",
+      "Plotly",
+      "Altair",
+    ],
+    projectUrl: "https://preppalbot.onrender.com/",
+  },
+  {
     title: "Prep Pal - AI Interview Copilot",
     description:
       "A RAG application built using Python, LangChain, and GPT. PrepPal is an AI interview preparation assistant fine-tuned on extensive real-world interview data.  It gives authentic, reliable answers using frameworks like STAR and CARL to structure your responses. The assistant handles behavioral, situational, technical questions and many more, using golden rules. For non-resume questions, it gathers specific details to customize answers that align with job requirements. It also provides summary of the resume",
@@ -24,12 +39,12 @@ const projects = [
       "OpenAI API",
       "Google Cloud",
     ],
-    projectUrl: "https://www.mycareerchamp.org/sign-up",
+    projectUrl: "  https://www.mycareerchamp.org/sign-up",
   },
   {
     title: "Picture Perfect",
     description:
-      "Picture Perfect is an image sharing and marketplace platform built with React and Django, enabling users to edit, share, and sell their images with seamless efficiency. Users can explore diverse categories including space, wildlife, nature, film, and animals, while having the ability to edit their images through features like cropping, resizing, and applying filters before uploading to specific categories. The application leverages AWS cloud services including EC2 Auto Scaling and S3 for image processing, maintaining 99.9% uptime. The platform features comprehensive image editing tools, content moderation, and advanced search functionality, with Jest test suites ensuring component reliability. Using MySQL for data management and Docker for containerization, the system delivers a scalable and reliable experience for users across the platform.",
+      "An image-sharing and marketplace platform built with React and Django, enabling users to edit, share, and sell images efficiently. Features include cropping, resizing, filters, advanced search, and content moderation. Leveraged AWS (EC2, S3) for image processing with 99.9% uptime, MySQL for data management, and Docker for scalability, ensuring a seamless user experience.",
     technologies: [
       "React",
       "JavaScript",
@@ -44,7 +59,7 @@ const projects = [
   {
     title: "Pulse Events",
     description:
-      "Full-stack event management platform using Next.js, Spring Boot, and PostgreSQL. The platform implements secure JWT authentication and role-based authorization through Spring Security, allowing users to create, manage, and discover events efficiently. Users can register for events and search through different filters including city, category, and dates, while admins can review and moderate content. The application integrates Google Maps and Places API for precise location services, with PostgreSQL handling complex data management. The modern, responsive interface ensures a smooth user experience across all devices.",
+      "Built a full-stack event management platform with Next.js, Spring Boot, and PostgreSQL, featuring secure JWT authentication and role-based access. Integrated Google Maps and Places API for location services, enabling event creation, management, and discovery with advanced filters. Delivered a responsive interface for seamless user and admin experiences.",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -59,7 +74,7 @@ const projects = [
   {
     title: "Prayan",
     description:
-      " AI travel planner app using React Native, integrating Google Places and Maps APIs for personalized itineraries, flight details, hotel recommendations, and location-based search.",
+      "AI travel planner app using React Native, integrating Google Places and Maps APIs for personalized itineraries, flight details, hotel recommendations, and location-based search.",
     technologies: [
       "React Native",
       "TypeScript",
