@@ -31,7 +31,7 @@ export function ResumeButton() {
 export function MobileResumeButton() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/vinay_nandhikanti_swe.pdf";
+    link.href = "/vinay_ai_engineer.pdf";
     link.download = "Nandhikanti_Vinay_Resume.pdf";
     document.body.appendChild(link);
     link.click();
