@@ -123,10 +123,10 @@ export function Contact() {
                 <div>
                   <p className="text-default-500 text-sm">Email</p>
                   <a
-                    href="mailto:nandhikantivinayk@gmail.com"
+                    href="mailto:nandhikvinay@gmail.com"
                     className="text-foreground hover:text-primary transition-colors"
                   >
-                    nandhikantivinayk@gmail.com
+                    nandhikvinay@gmail.com
                   </a>
                 </div>
               </CardBody>

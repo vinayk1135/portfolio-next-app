@@ -31,6 +31,23 @@ const experiences = [
     technologies: ["Java", "Communication", "Mentoring", "Code Review"],
   },
   {
+    title: "Machine Learning Intern",
+    company: "Ram Innovative Infotech",
+    period: "Jan 2022 - June 2022",
+    description: [
+      "• Developed a Computer Vision system for Drowsiness Detection using Haar Classifiers, OpenCV, achieving 95% accuracy.",
+      "• Implemented a facial landmark detection algorithm to calculate eye aspect ratio (EAR), monitoring and analyzing eye closure patterns and triggering alerts for prolonged closures.",
+      "• Integrated webcam and sensors to process video streams, cutting costs by 40% for a portable automotive safety system.",
+    ],
+    technologies: [
+      "Python",
+      "Machine Learning",
+      "Haar-Cascade Classifiers",
+      "Dlib",
+      "Raspberry Pi",
+    ],
+  },
+  {
     title: "Software Developer",
     company: "Zenbyt",
     period: "Jan 2022 - Dec 2022",
