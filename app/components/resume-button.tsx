@@ -6,7 +6,7 @@ import { Download } from "lucide-react";
 export function ResumeButton() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/vinay_nandhikanti_swe.pdf";
+    link.href = "/vinay_ai-engineer.pdf";
     link.download = "Nandhikanti_Vinay_Resume.pdf";
     document.body.appendChild(link);
     link.click();
