@@ -86,7 +86,7 @@ export function NavBar() {
             </Link>
           </NavbarBrand>
         </NavbarContent>
-
+{/* 
         <div className="hidden sm:flex">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -95,7 +95,7 @@ export function NavBar() {
           >
             <ResumeButton />
           </motion.div>
-        </div>
+        </div> */}
 
         <NavbarContent
           className="hidden sm:flex basis-1/5 sm:basis-full"
@@ -139,9 +139,9 @@ export function NavBar() {
         </NavbarContent>
 
         <NavbarMenu className="bg-background/95 backdrop-blur-md mt-2 pt-8">
-          <NavbarItem className="mb-6">
+{/*           <NavbarItem className="mb-6">
             <MobileResumeButton />
-          </NavbarItem>
+          </NavbarItem> */}
 
           {menuItems.map((item, index) => (
             <motion.div
