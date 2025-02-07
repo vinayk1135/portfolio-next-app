@@ -17,7 +17,7 @@ export function Hero() {
         className="space-y-6 z-10"
       >
         <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
-          Full Stack Developer
+          Full Stack Software Engineer
           <span className="block text-primary">& AI Engineer</span>
         </h1>
         <p className="text-lg text-default-500 max-w-[600px] mx-auto">
