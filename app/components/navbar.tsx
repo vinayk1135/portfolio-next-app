@@ -13,7 +13,7 @@ import {
 import { useState, useEffect } from "react";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { Menu } from "lucide-react";
-import { MobileResumeButton, ResumeButton } from "./resume-button";
+// import { MobileResumeButton, ResumeButton } from "./resume-button";
 
 export function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
