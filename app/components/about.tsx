@@ -63,12 +63,14 @@ export function About() {
             <Card className="bg-background/40 backdrop-blur-md border border-white/10">
               <CardBody className="gap-8">
                 <p className="text-lg text-default-500">
-                  Full Stack Developer/Software Engineer with strong experience
-                  in React, TypeScript, Python, and Java Spring ecosystem.
-                  Specialized in building scalable application and integrating
-                  AI/ML solutions. AWS certified and proven track record of
-                  optimizing application performance and implementing
-                  cloud-native solutions on AWS and GCP.
+                  Full Stack Engineer with a strong foundation in system reliability, 
+                  performance optimization, and cloud-native architectures. Hands-on experience 
+                  in deploying and maintaining scalable applications on AWS and GCP. Proficient 
+                  in React, TypeScript, Python, and the Java Spring ecosystem, with a deep 
+                  interest in debugging distributed systems, Linux internals, and network 
+                  observability. AWS and Google cloud certified with a passion for large-scale infrastructure, 
+                  troubleshooting complex systems, and automating operations to improve efficiency 
+                  and reliability in production environments.
                 </p>
                 <div className="flex flex-col lg:flex-row gap-8">
                   <div className="space-y-6 flex-grow">
