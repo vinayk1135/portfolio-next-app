@@ -21,12 +21,8 @@ export function Hero() {
           <span className="block text-primary">Cloud & AI</span>
         </h1>
         <p className="text-lg text-default-500 max-w-[600px] mx-auto">
-        Passionate about large-scale infrastructure, system reliability, and 
-        optimizing cloud-based architectures. Hands-on experience in building 
-        and deploying scalable applications on popular cloud platforms. 
-        Skilled in Linux systems, networking, performance monitoring, and 
-        debugging distributed systems. Proficient in React, TypeScript, Python, 
-        and the Java Spring ecosystem.
+          Passionate about designing and building scalable, high-performance applications with modern cloud technologies. 
+          Experienced in full-stack development, backend optimization, and deploying production-ready systems.
         </p>
         <div className="flex gap-4 justify-center items-center flex-wrap">
           <Button
