@@ -12,8 +12,7 @@ const skills = {
     "HTML",
     "CSS",
     "REST APIs",
-    "JSON",
-    "Webpack",
+    "JSON"
   ],
   Frameworks: [
     "Spring Boot",
@@ -24,7 +23,7 @@ const skills = {
     "Flask",
   ],
   Databases: ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
-  "Cloud & DevOps": ["AWS", "Google Cloud Platform", "Docker", "Kubernetes", "CI/CD", ""],
+  "Cloud & DevOps": ["AWS", "Google Cloud Platform", "Docker", "Kubernetes", "CI/CD"],
   "Testing & Tools": [
     "Jest",
     "Git",
