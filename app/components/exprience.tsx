@@ -31,6 +31,25 @@ const experiences = [
     technologies: ["Java", "Communication", "Mentoring", "Code Review"],
   },
   {
+    title: "Software Developer",
+    company: "Zenbyt",
+    period: "Jan 2022 - Dec 2022",
+    description: [
+      "•	Migrated a legacy PHP application to Node.js and Express, boosting development by 50% and increasing user retention by 25%.",
+      "•	Implemented RESTful APIs with Redis caching, supporting 100K+ daily requests at 99.9% uptime and sub-100ms response time.",
+      "•	Achieved 40% improved query performance by revamping PostgreSQL models with Sequelize ORM for client’s SaaS platform."
+      "•	Created responsive frontend using React.js and Redux, achieving 45% faster page loads and 30% increase in user engagement."
+
+    ],
+    technologies: [
+      "Python",
+      "Machine Learning",
+      "Haar-Cascade Classifiers",
+      "Dlib",
+      "Raspberry Pi",
+    ],
+  },
+  {
     title: "Machine Learning Intern",
     company: "Ram Innovative Infotech",
     period: "Jan 2022 - June 2022",
