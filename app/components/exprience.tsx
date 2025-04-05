@@ -40,11 +40,12 @@ const experiences = [
       "•	Created responsive frontend using React.js and Redux, achieving 45% faster page loads and 30% increase in user engagement.",
     ],
     technologies: [
-      "Python",
-      "Machine Learning",
-      "Haar-Cascade Classifiers",
-      "Dlib",
-      "Raspberry Pi",
+      "ReactJs",
+      "Node.js",
+      "Express",
+      "Redux",
+      "PostrgeSQL",
+      "Sequelize",
     ],
   },
   // {
