@@ -36,9 +36,8 @@ const experiences = [
     description: [
       "•	Migrated a legacy PHP application to Node.js and Express, boosting development by 50% and increasing user retention by 25%.",
       "•	Implemented RESTful APIs with Redis caching, supporting 100K+ daily requests at 99.9% uptime and sub-100ms response time.",
-      "•	Achieved 40% improved query performance by revamping PostgreSQL models with Sequelize ORM for client’s SaaS platform."
-      "•	Created responsive frontend using React.js and Redux, achieving 45% faster page loads and 30% increase in user engagement."
-
+      "•	Achieved 40% improved query performance by revamping PostgreSQL models with Sequelize ORM for client’s SaaS platform.",
+      "•	Created responsive frontend using React.js and Redux, achieving 45% faster page loads and 30% increase in user engagement.",
     ],
     technologies: [
       "Python",
