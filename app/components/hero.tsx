@@ -21,7 +21,10 @@ export function Hero() {
           <span className="block text-primary">Cloud & AI</span>
         </h1>
         <p className="text-lg text-default-500 max-w-[600px] mx-auto">
-            Passionate about designing and building scalable, high-performance applications with modern cloud technologies. With extensive full-stack experience, I blend intuitive design with robust system architecture to deliver seamless, production-ready solutions.
+          Passionate about designing and building scalable, high-performance
+          applications with modern cloud technologies. With extensive full-stack
+          experience, I blend intuitive frontend interface with robust system
+          architecture to deliver seamless, production-ready solutions.
         </p>
         <div className="flex gap-4 justify-center items-center flex-wrap">
           <Button

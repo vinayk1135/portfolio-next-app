@@ -5,33 +5,41 @@ import { motion } from "framer-motion";
 import LinkedInBadge from "./linkedin-badge";
 
 const skills = {
-  Languages: ["Java", "Python", "JavaScript", "TypeScript", "C/C++"],
-  "Web Technologies": [
+  Languages: ["Java", "Python", "JavaScript", "TypeScript"],
+  "Web Technologies and Libraries": [
     "React.js",
-    "Redux",
     "HTML",
     "CSS",
     "REST APIs",
-    "JSON"
+    "JSON",
+    "Plotly",
+    "Altair",
   ],
-  Frameworks: [
-    "Spring Boot",
-    "Hibernate",
-    "Node.js",
-    "Express",
-    "Django",
-    "Flask",
+  Frameworks: ["Django", "Flask", "FastAPI", "Node.js", "Express"],
+  "Data and Databases": [
+    "SQL (MySQL, PostgreSQL)",
+    "NoSQL (MongoDB)",
+    "Redis",
+    "Kafka",
+    "Apache Spark",
   ],
-  Databases: ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
-  "Cloud & DevOps": ["AWS", "Google Cloud Platform", "Docker", "Kubernetes", "CI/CD"],
-  "Testing & Tools": [
-    "Jest",
-    "Git",
+  "AI and Machine Learning": [
+    "NumPy",
+    "Pandas",
+    "Scikit-learn",
+    "LangChain",
+    "RAG",
+    "OpenCV",
+    "Natural Language Processing",
+  ],
+  "Cloud & DevOps": [
+    "AWS",
+    "Google Cloud Platform",
+    "Docker",
+    "Kubernetes",
     "CI/CD",
-    "Linux",
-    "Postman",
-    "IntelliJ IDEA",
   ],
+  "Testing & Tools": ["Jest", "Git", "Linux", "Postman"],
 };
 
 export function About() {
@@ -49,7 +57,18 @@ export function About() {
             <Card className="bg-background/40 backdrop-blur-md border border-white/10">
               <CardBody className="gap-8">
                 <p className="text-lg text-default-500">
-                  Full Stack Engineer with extensive experience in architecting and delivering high-performance web solutions. My expertise spans designing dynamic user experiences with React and TypeScript to engineering resilient, scalable server architectures using Node.js, Python, and the Java Spring ecosystem. I excel in end-to-end application development, from crafting intuitive client interfaces to implementing robust, cloud-native back-end systems on AWS and GCP. With a passion for performance optimization and deep technical interests in distributed systems, Linux internals, and network observability, I thrive on solving complex challenges and driving innovation in production environments.
+                  Full Stack Engineer with extensive experience in architecting
+                  and delivering high-performance solutions. My expertise spans
+                  designing dynamic user experiences with React, Next.js and
+                  TypeScript to engineering resilient, scalable server
+                  architectures using Node.js, Python (Django), and the Java
+                  Spring ecosystem. I excel in end-to-end application
+                  development, from developing intuitive user interfaces to
+                  implementing robust back-end systems on AWS and GCP. With a
+                  passion for performance optimization and deep technical
+                  interests in distributed systems, Linux internals, and network
+                  observability, I thrive on solving complex challenges and
+                  driving innovation in production environments.
                 </p>
                 <div className="flex flex-col lg:flex-row gap-8">
                   <div className="space-y-6 flex-grow">
