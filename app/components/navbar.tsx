@@ -13,7 +13,7 @@ import {
 import { useState, useEffect } from "react";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { Menu } from "lucide-react";
-// import { MobileResumeButton, ResumeButton } from "./resume-button";
+import { MobileResumeButton, ResumeButton } from "./resume-button";
 
 export function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -81,12 +81,12 @@ export function NavBar() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                NANDHIKANTI VINAY
+                NANDHI KANTI VINAY KUMAR
               </motion.span>
             </Link>
           </NavbarBrand>
         </NavbarContent>
-{/* 
+
         <div className="hidden sm:flex">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -95,7 +95,7 @@ export function NavBar() {
           >
             <ResumeButton />
           </motion.div>
-        </div> */}
+        </div>
 
         <NavbarContent
           className="hidden sm:flex basis-1/5 sm:basis-full"

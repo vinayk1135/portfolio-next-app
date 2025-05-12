@@ -109,7 +109,7 @@ export function Contact() {
                     href="tel:+16282763863"
                     className="text-foreground hover:text-primary transition-colors"
                   >
-                    +1 (669)-228-5863
+                    +1 (628)-276-3863
                   </a>
                 </div>
               </CardBody>
@@ -123,10 +123,10 @@ export function Contact() {
                 <div>
                   <p className="text-default-500 text-sm">Email</p>
                   <a
-                    href="mailto:nandhikvinay@gmail.com"
+                    href="mailto:nandhikantivinayk@gmail.com"
                     className="text-foreground hover:text-primary transition-colors"
                   >
-                    nandhikvinay@gmail.com
+                    nandhikantivinayk@gmail.com
                   </a>
                 </div>
               </CardBody>

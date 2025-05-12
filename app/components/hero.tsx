@@ -17,8 +17,8 @@ export function Hero() {
         className="space-y-6 z-10"
       >
         <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
-          Full Stack Engineer
-          <span className="block text-primary">Cloud & AI</span>
+          Software Engineer
+          <span className="block text-primary mt-3">Cloud & Distributed</span>
         </h1>
         <p className="text-lg text-default-500 max-w-[600px] mx-auto">
           Passionate about designing and building scalable, high-performance

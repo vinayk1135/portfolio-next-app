@@ -5,41 +5,47 @@ import { motion } from "framer-motion";
 import LinkedInBadge from "./linkedin-badge";
 
 const skills = {
-  Languages: ["Java", "Python", "JavaScript", "TypeScript"],
-  "Web Technologies and Libraries": [
+  Languages: ["Java", "Python", "JavaScript", "C++","HTML","CSS"],
+  "Frameworks and Libraries": [
+    "Spring Boot",
+    "Hibernate",
     "React.js",
-    "HTML",
-    "CSS",
-    "REST APIs",
-    "JSON",
-    "Plotly",
-    "Altair",
+    "Django",
+    "JUnit",
+    "Jest",
+    "RESTful APIs",
+    "YAML/JSON",
   ],
-  Frameworks: ["Django", "Flask", "FastAPI", "Node.js", "Express"],
   "Data and Databases": [
     "SQL (MySQL, PostgreSQL)",
-    "NoSQL (MongoDB)",
+    "NoSQL (MongoDB, DynamoDB)",
     "Redis",
     "Kafka",
-    "Apache Spark",
   ],
-  "AI and Machine Learning": [
-    "NumPy",
-    "Pandas",
-    "Scikit-learn",
-    "LangChain",
-    "RAG",
-    "OpenCV",
-    "Natural Language Processing",
-  ],
-  "Cloud & DevOps": [
+  "Infrastructure and Cloud": [
     "AWS",
     "Google Cloud Platform",
     "Docker",
     "Kubernetes",
     "CI/CD",
+    "Microservices Architecture",
+    "Load Balancing",
+    "TCP/IP",
+    "CDN",
+    "DNS"
   ],
-  "Testing & Tools": ["Jest", "Git", "Linux", "Postman"],
+  "Testing & Tools": ["Jest", "Git", "Linux", "Postman", "Observability Tools", "Performance Profiling"],
+  "AI and Machine Learning": [
+    "LangChain",
+    "RAG",
+    "Natural Language Processing",
+  ],
+  "CS Fundamentals": [
+    "Data Structures",
+    "Algorithms",
+    "Problem-Solving",
+    "Distributed Systems"
+  ]
 };
 
 export function About() {
@@ -57,12 +63,10 @@ export function About() {
             <Card className="bg-background/40 backdrop-blur-md border border-white/10">
               <CardBody className="gap-8">
                 <p className="text-lg text-default-500">
-                  Full Stack Engineer with extensive experience in architecting
+                  Software Engineer with extensive experience in architecting
                   and delivering high-performance solutions. My expertise spans
-                  designing dynamic user experiences with React, Next.js and
-                  TypeScript to engineering resilient, scalable server
-                  architectures using Node.js, Python (Django), and the Java
-                  Spring ecosystem. I excel in end-to-end application
+                  designing dynamic user experiences React, TypeScript, and Next.js to engineering fault-tolerant, scalable servers 
+                  using Java Spring ecosystem, Python, and Django. I excel in end-to-end application
                   development, from developing intuitive user interfaces to
                   implementing robust back-end systems on AWS and GCP. With a
                   passion for performance optimization and deep technical
