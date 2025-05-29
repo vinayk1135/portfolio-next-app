@@ -17,13 +17,13 @@ export function Hero() {
         className="space-y-6 z-10"
       >
         <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
-          Software Engineer
-          <span className="block text-primary mt-3">Cloud & Distributed</span>
+          Full Stack Software Engineer
+          <span className="block text-primary mt-3">& AI Engineer</span>
         </h1>
         <p className="text-lg text-default-500 max-w-[600px] mx-auto">
-          Passionate about designing and building scalable, high-performance
-          applications with modern cloud technologies. With extensive full-stack
-          experience, I blend intuitive frontend interface with robust system
+          Specialized in building building scalable applications and integrating
+          AI/ML solutions. Strong experience in React, TypeScript, Python, and
+          Java Spring ecosystem. With extensive full-stack experience, I blend intuitive frontend interface with robust system
           architecture to deliver seamless, production-ready solutions.
         </p>
         <div className="flex gap-4 justify-center items-center flex-wrap">
