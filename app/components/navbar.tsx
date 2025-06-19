@@ -138,7 +138,7 @@ export function NavBar() {
         </NavbarContent>
 
         <NavbarMenu className="bg-background/95 backdrop-blur-md mt-2 pt-8">
-{/*       <NavbarItem className="mb-6">
+{/*        <NavbarItem className="mb-6">
             <MobileResumeButton />
           </NavbarItem> */}
 
