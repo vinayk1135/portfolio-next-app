@@ -78,7 +78,7 @@ export function Education() {
                       <p className="text-default-500">{edu.school}</p>
                       <p className="text-sm text-default-400">{edu.duration}</p>
                       <p className="text-sm text-primary mt-1">
-                        GPA: {edu.gpa}
+                          {edu.gpa && `GPA: ${edu.gpa}`}
                       </p>
                     </div>
                     <div className="relative">
