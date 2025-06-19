@@ -87,7 +87,7 @@ export function NavBar() {
           </NavbarBrand>
         </NavbarContent>
 
-{/*         <div className="hidden sm:flex">
+{/*     <div className="hidden sm:flex">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -139,7 +139,7 @@ export function NavBar() {
         </NavbarContent>
 
         <NavbarMenu className="bg-background/95 backdrop-blur-md mt-2 pt-8">
-{/*           <NavbarItem className="mb-6">
+{/*       <NavbarItem className="mb-6">
             <MobileResumeButton />
           </NavbarItem> */}
 
