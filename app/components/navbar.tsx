@@ -87,7 +87,7 @@ export function NavBar() {
           </NavbarBrand>
         </NavbarContent>
 
-        <div className="hidden sm:flex">
+{/*         <div className="hidden sm:flex">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -96,7 +96,7 @@ export function NavBar() {
             <ResumeButton />
           </motion.div>
         </div>
-
+ */}
         <NavbarContent
           className="hidden sm:flex basis-1/5 sm:basis-full"
           justify="end"
