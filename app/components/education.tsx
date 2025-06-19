@@ -35,7 +35,6 @@ export function Education() {
       degree: "Bachelor of Technology in Computer Science",
       school: "Jawaharlal Nehru Technological University",
       duration: "2018 - 2022",
-      gpa: "3.2",
       logo: "/jntu-logo.png",
       coursework: [
         "Object Oriented Programming",
